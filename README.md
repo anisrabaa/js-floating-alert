@@ -4,7 +4,8 @@ A simple, minimal way to display messages to users.
 
 The message appears in a box that "floats" from the bottom of the screen:
 
-![Demo Image](https://drive.google.com/file/d/1W1gyQ-LMuySNnfuEJEelQPYAKf89qRtW/view?usp=sharing)
+![Demo Image](https://drive.google.com/uc?export=view&id=1W1gyQ-LMuySNnfuEJEelQPYAKf89qRtW)
+
 
 ## Getting Started
 
