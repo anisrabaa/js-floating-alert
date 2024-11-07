@@ -11,7 +11,7 @@ onload = function() {
     // the form
     this.document.getElementById('try-it-form').addEventListener('submit', function(e) {
         e.preventDefault();
-        FloatingAlert.display(this.alert_text.value);
+        FloatingAlert.display(this.alert_text.value, this.alert_type.value);
     })
 }
 

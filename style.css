@@ -111,7 +111,7 @@ h2::after {
     font-weight: bold;
     position: fixed;
     bottom: -50px;
-    transition: bottom 1s ease-in;
+    transition: bottom 0.5s ease-in;
     border-radius: 7px;
     
     /* center it horizontally */
@@ -119,9 +119,34 @@ h2::after {
     transform: translate(-50%, 0);
 }
 
+#alert-container.default {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+#alert-container.warning {
+    background-color: rgba(255, 170, 0, 0.7);
+    color: #000;
+}
+
+#alert-container.error {
+    background-color: rgba(200, 0, 0, 0.7);
+    color: #fff;
+}
+
+#alert-container.success {
+    background-color: rgba(22, 171, 14, 0.7);
+    color: #fff;
+}
+
+#alert-container.info {
+    background-color: rgba(0, 113, 205, 0.7);
+    color: #fff;
+}
+
 #alert-container.show {
     bottom: 20px;
-    transition: bottom 1s ease-out;
+    transition: bottom 0.5s ease-out;
 }
 
 input[type='text'] {
@@ -162,4 +187,11 @@ button {
 button:hover {
     background-color: #fff;
     color: #12274e;
+}
+
+#alert_type {
+	font-size: 12pt;
+	border: 3px solid #aaa;
+    border-radius: 7px;
+    padding: 8px 15px;
 }
