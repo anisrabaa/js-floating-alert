@@ -22,4 +22,4 @@ The message appears in a box that "floats" from the bottom of the screen:
 
 #### Demo:
 
-    Demo page [here](https://anisrabaa.github.io/js-floating-alert/).
+Demo page [here](https://anisrabaa.github.io/js-floating-alert/).
