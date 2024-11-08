@@ -20,6 +20,6 @@ The message appears in a box that "floats" from the bottom of the screen:
 #### Step 3: Display your message
 	FloatingAlert.display('This is a test message.');
 
-#### Result:
+#### Demo:
 
-    TODO insert screenshot here.
+    Demo page [here](https://anisrabaa.github.io/js-floating-alert/).
